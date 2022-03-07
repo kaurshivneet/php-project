@@ -7,9 +7,7 @@ define("FILE_ORDERS", "Orders.php");
 
 
 define ("FOLDER_PICTURES", "Images/");
-//define("PICTURE_PEPSI", FOLDER_PICTURES . "pepsi.jpg");
-//define("PICTURE_COCA_COLA", FOLDER_PICTURES . "coca.jpg");
-//define("PICTURE_BEAR", FOLDER_PICTURES . "beer.jpg");
+
 define ("FILE_LOGO",FOLDER_PICTURES. "logo.png");
 define ("FOLDER_CSS","CSS/");
 define ("FILE_CSS", FOLDER_CSS . "style.css");
@@ -44,7 +42,11 @@ h1{ color:green; }
 class="logo"
 alt="company logo" height="200" width="400"> </td>
 <td align="center"> <h1 style="font-family:verdana;">THE MAGIC OF WORDS</h1>
-    <P>HELLO</P></td></tr>
+    <P>We know that school can get expensive and 
+        the last thing that we want to do is create more unnecessary expenses 
+        when that time of year rolls around. That's why we are committed to offering 
+        great quality textbooks for the most affordable prices around!
+        Here is best Place to buy Books Online.</P></td></tr>
 
 <?php
 
@@ -67,7 +69,7 @@ navigationMenu();
 function navigationMenu()
 { ?>
 
-<td> <a href="<?php echo FILE_INDEX;?>">  Homepage  </a>
+<td> <a href="<?php echo FILE_HOME;?>">  Homepage  </a>
 <a href="<?php echo FILE_BUYING;?>">Buying</a>
 <a href="<?php echo FILE_ORDERS;?>">Orders</a></td>
 
